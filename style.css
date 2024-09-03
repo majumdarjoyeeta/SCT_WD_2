@@ -1,0 +1,155 @@
+body {
+    padding: 5px;
+    margin: 0;
+    font-family: verdana;
+    background-color: #f4fde5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 10px dotted #850c0c ;
+}
+.mclass
+{
+    font-size: 80px;
+    color: #ffffff;
+    font-family: 'Courier New', monospace;
+    border: #009779 2px solid;
+    background-color: hsla(244, 92%, 36%, 0.881);
+    border: 5px dotted #cedef5 ;
+}
+#laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divid
+{
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+.container:hover {
+    animation: change-color 1s infinite;
+    -webkit-animation: change-color 1s infinite;
+}
+.mclass:hover {
+    animation: change-color 0.5s infinite;
+}
+@keyframes change-color {
+    0% {
+        background-color: rgb(148, 229, 254);
+    }
+    30% {
+        background-color: rgb(255, 255, 255);
+    }
+    40% {
+        background-color: rgb(250, 254, 148);
+    }
+    60% {
+        background-color: rgb(255, 255, 255);
+    }
+    70% {
+        background-color: #ffd6d6;
+    }
+    80% {
+        background-color: rgb(255, 255, 255);
+    }
+    85% {
+        background-color: rgb(148, 254, 167);
+    }
+    90% {
+        background-color: rgb(255, 255, 255);
+    }
+    95% {
+        background-color: rgb(221, 178, 248);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+@keyframes change-color {
+    0% {
+        background-color: rgb(176, 254, 148);
+    }
+    10% {
+        background-color: rgb(236, 254, 148);
+    }
+    20% {
+        background-color: rgb(245, 224, 240);
+    }
+    30% {
+        background-color: rgb(247, 147, 225);
+    }
+    40% {
+        background-color: rgb(40, 27, 233);
+    }
+    50% {
+        background-color: rgb(110, 10, 88);
+    }
+    60% {
+        background-color: rgb(186, 230, 246);
+    }
+    70% {
+        background-color: rgb(249, 212, 191);
+    }
+    80% {
+        background-color: rgb(24, 14, 111);
+    }
+    90% {
+        background-color: rgb(243, 96, 5);
+    }
+    100% {
+        background-color: rgb(220, 57, 57);
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    background-color: #6842ffbd;
+    border-radius: 15px;
+    border: 10px dotted #ffff62 ;
+}
+
+.digit {
+    font-size: 150px;
+    color: #fff;
+}
+
+.txt {
+    font-size: 30px;
+    color: #fffcd6;
+}
+
+#buttons {
+    margin-top: 50px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 0 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    font-weight: 500;
+}
+
+#start {
+    background-color: #009779;
+}
+
+#stop {
+    background-color: #0e85fc;
+}
+
+#reset {
+    background-color: #c91400;
+}
